@@ -9,5 +9,3 @@ use cddemo;
 create table counter (value INT NOT NULL);
 insert into counter values (1);
 EOF
-
-mysql_secure_installation
