@@ -4,7 +4,7 @@ JSPPATH=/var/lib/tomcat6/webapps/cddemo/index.jsp
 
 if [[ "$1" == "" ]]
 then
-	echo "Usage: config-cddemo.sh <MYSQL IP>"
+	echo "Usage: config-be.sh <MYSQL IP>"
 	exit 1
 fi
 
